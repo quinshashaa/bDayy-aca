@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Gloria Hallelujah', cursive;
+  background: linear-gradient(to bottom, #87ceeb, #e0f7ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 115vh;
+}
+
+/* card */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  max-width: 420px;
+  animation: fadeIn 1.5s ease;
+}
+
+/* kue */
+.cake {
+  font-size: 60px;
+  animation: bounce 1.5s infinite;
+}
+
+/* judul */
+.happy {
+  margin-top: 10px;
+}
+
+/* teks */
+.ucapan {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.love {
+  margin-top: 15px;
+  color: #ff4d6d;
+  font-weight: bold;
+}
+
+/* animasi */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
